@@ -1,0 +1,26 @@
+{
+  "name": "scoring-project-dzdrum",
+  "version": "1.0.0",
+  "description": "A html document parser that generates a score and time for each file and then saves the data to a mysql database",
+  "main": "/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/html_scorer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedVentures22/scoring-project-dzdrum.git"
+  },
+  "author": "Dylan Drum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedVentures22/scoring-project-dzdrum/issues"
+  },
+  "homepage": "https://github.com/RedVentures22/scoring-project-dzdrum#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "6.0.0",
+    "mysql": "^2.16.0",
+    "prompt": "^1.0.0"
+  }
+}
